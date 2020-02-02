@@ -26,3 +26,11 @@
     }
   }
 }
+
+@media screen and (max-width: 992px) {
+  .main {
+    .apart:not(:first-child) {
+      margin-top: 30px;
+    }
+  }
+}

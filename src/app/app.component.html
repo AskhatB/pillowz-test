@@ -8,8 +8,8 @@
       <div class="col-sm-12 col-md-8">
         <app-profile-main></app-profile-main>
         <h2 class="m-t-30 f-s-18 font-weight-bold">Витрина объектов</h2>
-        <div class="apart-list m-t-30 row">
-          <div class="col-sm-12 col-xl-6" *ngFor="let appart of apparts">
+        <div class=" m-t-30 row">
+          <div class="apart col-sm-12 col-lg-6" *ngFor="let appart of apparts">
             <app-appart-card [data]="appart"></app-appart-card>
           </div>
         </div>
