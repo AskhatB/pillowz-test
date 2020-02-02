@@ -1,0 +1,108 @@
+.icon {
+  display: block;
+  &.tick {
+    width: 16px;
+    height: 16px;
+    background-image: url("assets/icons/tick.svg");
+  }
+  &.wreath {
+    width: 16px;
+    height: 16px;
+    background-image: url("assets/icons/wreath.svg");
+  }
+  &.mail {
+    width: 16px;
+    height: 16px;
+    background-image: url("assets/icons/mail.svg");
+  }
+  &.door {
+    width: 16px;
+    height: 16px;
+    background-image: url("assets/icons/door.svg");
+  }
+  &.resident {
+    width: 16px;
+    height: 16px;
+    background-image: url("assets/icons/resident.svg");
+  }
+  &.bookmark {
+    width: 18px;
+    height: 24px;
+    background-image: url("assets/icons/bookmark.svg");
+  }
+  &.pillowz-sign-appart-card {
+    width: 32px;
+    height: 48px;
+    background-image: url("assets/icons/pillowz-sign-appart-card.svg");
+  }
+  &.success-sign-appart-card {
+    width: 32px;
+    height: 48px;
+    background-image: url("assets/icons/success-sign-appart-card.svg");
+  }
+  &.house {
+    width: 14px;
+    height: 12px;
+    background-image: url("assets/icons/house.svg");
+  }
+  &.logo-big {
+    width: 110px;
+    height: 60px;
+    background-image: url("assets/icons/logo-big.svg");
+  }
+  &.appstore {
+    width: 97px;
+    height: 26px;
+    background-image: url("assets/icons/appstore.svg");
+  }
+  &.playmarket {
+    width: 111px;
+    height: 26px;
+    background-image: url("assets/icons/playmarket.svg");
+  }
+  &.astana-hub-logo {
+    width: 107px;
+    height: 28px;
+    background-image: url("assets/icons/astana-hub-logo.svg");
+  }
+  &.flatfy-logo {
+    width: 100px;
+    height: 32px;
+    background-image: url("assets/icons/flatfy-logo.svg");
+  }
+  &.vk {
+    width: 18px;
+    height: 11px;
+    background-image: url("assets/icons/vk.svg");
+  }
+  &.facebook {
+    width: 10px;
+    height: 18px;
+    background-image: url("assets/icons/facebook.svg");
+  }
+  &.instagram {
+    width: 18px;
+    height: 18px;
+    background-image: url("assets/icons/instagram.svg");
+  }
+  &.slider-next {
+    width: 9px;
+    height: 16px;
+    background-image: url("assets/icons/next-slider.svg");
+  }
+  &.slider-prev {
+    width: 9px;
+    height: 16px;
+    background-image: url("assets/icons/prev-slider.svg");
+  }
+  &.star {
+    width: 11px;
+    height: 10px;
+    background-image: url("assets/icons/star.svg");
+  }
+  &.star-half {
+    width: 11px;
+    height: 10px;
+    background-image: url("assets/icons/star-half.svg");
+  }
+}

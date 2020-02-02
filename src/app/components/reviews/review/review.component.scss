@@ -1,0 +1,46 @@
+@import "../../../../styles/variables";
+
+:host:last-child {
+  .review {
+    border-bottom: 1px solid map-get($gray, A200);
+  }
+}
+
+.review {
+  border-top: 1px solid map-get($gray, A200);
+  padding: 15px 0;
+  &__message {
+    padding: 10px 20px;
+    margin-top: 15px;
+    border: 1px solid map-get($gray, A200);
+    border-radius: 0px 16px 16px 16px;
+    background: map-get($gray, A100);
+  }
+  &__avatar {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  &__content {
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .review {
+    &__avatar {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 15px;
+    }
+    &__content {
+      padding-left: 0;
+    }
+  }
+}

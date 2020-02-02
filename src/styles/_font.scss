@@ -1,0 +1,48 @@
+@import "variables";
+
+/* Colors */
+.f-c-green {
+  color: $green;
+}
+
+.f-c-gray-300 {
+  color: map-get($gray, A300);
+}
+
+.f-c-primary {
+  color: $primary;
+}
+
+.f-c-dark-secondary {
+  color: $dark-secondary;
+}
+
+.f-c-white {
+  color: $white;
+}
+
+.f-c-red {
+  color: $red;
+}
+
+/* Sizes */
+.f-s-12 {
+  font-size: 12px;
+}
+
+.f-s-14 {
+  font-size: 14px;
+}
+
+.f-s-16 {
+  font-size: 16px;
+}
+
+.f-s-18 {
+  font-size: 18px;
+}
+
+/* Weights */
+.f-w-semibold {
+  font-weight: 600;
+}

@@ -1,0 +1,22 @@
+@import '../../../styles/variables';
+
+.reviews {
+  &__label {
+    border: 1px solid map-get($gray, A200);
+    border-radius: 6px;
+    padding: 22px 30px;
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .reviews {
+    &__label {
+      flex-direction: column;
+      text-align: center;
+      .m-r-50 {
+        margin-right: 0;
+      }
+    }
+  }
+}

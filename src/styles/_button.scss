@@ -1,0 +1,9 @@
+@import "variables";
+
+.btn {
+  &.primary {
+    background: $primary;
+    border-radius: 25px;
+    color: $white;
+  }
+}

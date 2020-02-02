@@ -1,0 +1,29 @@
+@import "../../../styles/variables";
+
+.profile-main {
+  border: 1px solid map-get($gray, A200);
+  border-radius: 6px;
+  padding: 10px 30px;
+
+  &__name {
+    display: flex;
+    align-items: center;
+    .icon {
+      margin-left: 10px;
+    }
+  }
+
+  &__item {
+    border-bottom: 1px solid map-get($gray, A200);
+    padding: 20px 0;
+    &:last-child {
+      border: none;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .profile-main {
+    margin-top: 30px;
+  }
+}

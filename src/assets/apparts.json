@@ -1,0 +1,36 @@
+[
+  {
+    "id": 1,
+    "name": "Квартира-студия с гостиничным сервисом",
+    "roomCount": 4,
+    "guestCount": 4,
+    "address": "Сейфуллина 458, Айтек би Алматы",
+    "rating": 3,
+    "freeReject": true,
+    "price": 12000,
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/840x460/185360772.jpg?k=3d8d9d81ed1c05b4e26d81998be32dcb72e0305305cc2c25f245cf94d30167ea&o=",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+    ],
+    "pillowzTick": true,
+    "successTick": true
+  },
+  {
+    "id": 2,
+    "name": "Квартира-студия с гостиничным сервисом",
+    "roomCount": 4,
+    "guestCount": 4,
+    "address": "Сейфуллина 458, Айтек би Алматы",
+    "rating": 4,
+    "freeReject": true,
+    "price": 12444,
+    "images": [
+      "https://q-xx.bstatic.com/xdata/images/hotel/840x460/185360772.jpg?k=3d8d9d81ed1c05b4e26d81998be32dcb72e0305305cc2c25f245cf94d30167ea&o=",
+      "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      "https://images.unsplash.com/photo-1460317442991-0ec209397118?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+    ],
+    "pillowzTick": false,
+    "successTick": true
+  }
+]

@@ -1,0 +1,52 @@
+@import "../../../styles/variables";
+
+.profile-short {
+  &__main {
+    border: 1px solid map-get($gray, A200);
+    border-radius: 6px;
+    padding: 12px;
+  }
+
+  &__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0 10px;
+    .icon {
+      margin-left: 10px;
+    }
+  }
+
+  &__avatar {
+    height: 240px;
+    border-radius: 4px;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+
+  &__additional {
+    margin-top: 30px;
+    &-item {
+      display: flex;
+      align-items: center;
+      border-top: 1px solid map-get($gray, A200);
+      padding: 15px 0;
+      .icon {
+        margin-right: 15px;
+      }
+      &:last-child {
+        border-bottom: 1px solid map-get($gray, A200);
+      }
+    }
+  }
+
+  button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px 0;
+  }
+}

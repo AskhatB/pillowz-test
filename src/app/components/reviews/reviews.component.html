@@ -1,0 +1,12 @@
+<div class="reviews">
+  <div class="reviews__label d-flex">
+    <div class="m-r-50 f-w-semibold">Рекомендуют</div>
+    <div class="f-c-primary m-r-5">
+      <span class="font-weight-bold">65%</span> пользователей
+    </div>
+    <div class="m-r-5">(15 отзывов)</div>
+  </div>
+  <div class="m-t-30">
+    <app-review *ngFor="let review of reviews" [data]="review"></app-review>
+  </div>
+</div>

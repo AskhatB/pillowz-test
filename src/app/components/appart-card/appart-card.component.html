@@ -1,0 +1,72 @@
+<div class="appart-card">
+  <div class="appart-card__signs d-flex">
+    <i class="icon pillowz-sign-appart-card" *ngIf="data.pillowzTick"></i>
+    <i class="icon success-sign-appart-card" *ngIf="data.successTick"></i>
+  </div>
+  <div class="appart-card__wrapper">
+    <div class="appart-card__preview">
+      <div
+        [id]="'carouselExampleControls' + data.id"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div
+            class="carousel-item"
+            *ngFor="let img of data.images; let i = index"
+            [class.active]="i === 0"
+          >
+            <img class="d-block w-100" [src]="img" alt="First slide" />
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          [href]="'#carouselExampleControls' + data.id"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="icon slider-prev" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          [href]="'#carouselExampleControls' + data.id"
+          role="button"
+          data-slide="next"
+        >
+          <span class="icon slider-next" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="appart-card__price">
+        <span class="f-s-14">{{ data.price }}</span
+        ><span class="f-s-12">т/за сутки</span>
+      </div>
+      <button><i class="appart-card__bookmark icon bookmark"></i></button>
+    </div>
+    <div class="appart-card__content">
+      <h2 class="f-s-16 f-c-primary f-w-semibold">
+        {{ data.name }}
+      </h2>
+      <div class="appart-card__info d-flex justify-content-between">
+        <div class="f-s-14 d-flex align-items-center">
+          <i class="icon door"></i> {{ data.roomCount }} комнаты
+        </div>
+        <div class="f-s-14 d-flex align-items-center">
+          <i class="icon resident"></i> до {{ data.guestCount }}х гостей
+        </div>
+      </div>
+      <div class="appart-card__address f-s-14">
+        {{ data.address }}
+      </div>
+      <div
+        class="appart-card__additional d-flex align-items-center justify-content-between"
+      >
+        <app-rating [rating]="data.rating"></app-rating>
+        <div class="f-s-12 f-c-dark-secondary" *ngIf="data.freeReject">
+          Бесплатная отмена
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
